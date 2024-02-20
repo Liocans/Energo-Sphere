@@ -1,0 +1,67 @@
+@import '../constants/index';
+
+p-multiSelect.form-multiselect{
+    div.p-multiselect{
+        width: 100%;
+    }
+}
+
+p-multiselect.purple-multiselect{
+    div.p-multiselect:not(.p-disabled):hover{
+        border-color: #{$primary-color};        
+    }
+
+    div.p-multiselect.p-multiselect-chip{
+      div.p-multiselect-token{
+        color: #{$primary-color};
+        background: #{$hover-item-color};
+      }
+    } 
+
+    div.p-multiselect-panel{
+
+        div.p-checkbox{
+            div.p-checkbox-box.p-highlight{
+                background: #{$primary-color};
+                border-color: #{$primary-color};
+    
+                &:hover{
+                    background-color: #{$hover-color}; 
+                }
+            }
+    
+            &:not(.p-checkbox-disabled){
+                div.p-checkbox-box:hover{
+                    border-color: #{$primary-color};
+                }
+            }
+        }
+
+        input.p-inputtext{
+            &:enabled{
+                &:hover{
+                    border-color: #{$primary-color};
+                }
+
+                &:focus{
+                    border-color: #{$primary-color};
+                    box-shadow: 0 0 0 0.2rem #{$box-shadow-color};
+                }
+            }
+        }
+
+        ul.p-multiselect-items{
+            li.p-multiselect-item.p-highlight{
+                color: #{$primary-color};
+                background: #e0e0f270;
+            }
+
+            li.p-multiselect-item:focus{
+                box-shadow: inset 0 0 0 0.15rem #{$box-shadow-color};
+            }
+        } 
+    }
+}
+
+
+

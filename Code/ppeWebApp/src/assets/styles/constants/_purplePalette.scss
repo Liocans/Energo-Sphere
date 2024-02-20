@@ -1,0 +1,36 @@
+
+//main colors
+$primary-color: #6B6FD5;
+$secondary-color: #9196f5;
+$hover-color: #21235d;
+$hover-item-color: #e0e1ff;
+$white-color: #ffffff;
+$box-shadow-color: #acb0ff;
+
+//gradients
+
+$prim-grad-color-1: #13405e;
+$prim-grad-color-2:#5e5382;
+@mixin primary-linear-gradient{
+    background: linear-gradient(0deg, #{$prim-grad-color-1} 0%, #{$prim-grad-color-2} 100%);
+}
+
+@mixin primary-upper-radial-gradient{
+    background: radial-gradient( ellipse at top, #{$prim-grad-color-1} 0%, #{$prim-grad-color-2} 100%);
+}
+
+@mixin primary-footer-radial-gradient{
+    background: radial-gradient( ellipse at bottom, #{$prim-grad-color-1} 0%, #{$prim-grad-color-2} 100%);
+}
+
+$sec-grad-color-1: #667eea;
+$sec-grad-color-2:  #764ba2;
+@mixin secondary-linear-gradient{
+    background: linear-gradient(135deg, #{$sec-grad-color-1} 0%, #{$sec-grad-color-2} 100%);
+}
+
+$hov-sec-grad-color-1: #6e45e2;
+$hov-sec-grad-color-2: #88d3ce;
+@mixin hover-secondary-linear-gradient{
+    background: linear-gradient(135deg, #{$hov-sec-grad-color-1} 0%, #{$hov-sec-grad-color-2} 100%);
+}

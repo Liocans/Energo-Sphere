@@ -1,0 +1,8 @@
+----------------------------CUSTOMER---------------------
+
+-Création portefeuille (automatiquement gestionnaire)
+	-Ajouter des points de fournitures
+
+-------------------------PROVIDER-----------------------
+
+-Importer les données CSV, XML, JSON ou YAML

@@ -1,0 +1,32 @@
+<div  class="price-view view">
+    <section class="header-view">
+
+    </section>
+    <section class="table-toolbar">
+        <p-toolbar class="toolbar" styleClass="mb-4 gap-2">
+            <ng-template pTemplate="left" class="left-side-toolbar">
+                <div class="router-actions rv-separator">
+                    <button  (click)="onPreviousClick()" pButton label='{{ "previous" | translate }}' icon="pi pi-chevron-left" class="p-button-sm p-button-secondary"></button>    
+                </div>
+                <div class="table-actions" *ngIf="isAdmin()">
+                    <button  pButton (click)="createFormDialog()" label='{{ "new" | translate }}' icon="pi pi-plus" class="mr-2 p-button-sm purple-button"></button> 
+                </div>
+            </ng-template>
+            <ng-template pTemplate="right" class="right-side-toolbar">
+                
+            </ng-template>
+        </p-toolbar>
+    </section>
+    <section class="table-container">
+        <app-dynamic-table 
+            [collection]= "energiesPrices" 
+            [cols]= "cols" 
+            [isEditable] = "isAdmin()"
+            [isDeletable] = "isAdmin()"
+            [isLoading]="isLoading"
+            (onEdit)="editFormDialog($event)" 
+            (onDelete)="deletePrice($event)" 
+            (onSelect)="onPriceSelected($event)">
+        </app-dynamic-table>
+    </section>
+</div>

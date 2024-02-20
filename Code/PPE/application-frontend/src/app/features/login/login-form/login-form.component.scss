@@ -1,0 +1,93 @@
+@use "/src/assets/styles/constants/index" as *;
+
+.loader-container{
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .auth-container{
+        padding: 0.5rem 3.5rem;
+        background-color: rgb(177, 177, 177);
+
+        border-radius: 5px;
+
+        box-shadow:
+            0.6px 0.6px 1.9px rgba(0, 0, 0, 0.045),
+            1.3px 1.3px 4.3px rgba(0, 0, 0, 0.07),
+            2.4px 2.4px 7.7px rgba(0, 0, 0, 0.089),
+            4px 4px 12.8px rgba(0, 0, 0, 0.106),
+            6.6px 6.6px 21.2px rgba(0, 0, 0, 0.121),
+            11.6px 11.6px 37px rgba(0, 0, 0, 0.135),
+            25px 25px 80px rgba(0, 0, 0, 0.15)
+            ;
+        span.error-text{
+            display: flex;
+            font-weight: bolder;
+            font-size: 0.8rem;
+            justify-content: center;
+        }
+        div.title-div{
+            width: 100%;
+        }
+
+        .login-form{
+
+            .f-elem{
+                margin: .5rem 0;
+            }
+
+            div:first-child {
+                margin-bottom: 30px;
+              }
+
+            input, p-password{
+                width: 100%;
+            }
+        }
+
+        div.btn-div{
+            padding: 2rem 0;
+            width: 100%;
+            button{
+                display: flex;
+                justify-content: center;
+
+                width: 100%;
+
+
+                i.btn-icon{
+                    padding: 0 .3rem;
+                }
+            }
+            button.sm-label{
+                color: #f2f2f2;
+                height: 1rem;
+                padding: 1rem;
+            }
+            button:nth-child(2){
+                margin-top: 1rem;
+            }
+
+            @keyframes d7 {
+                33% {
+                    background-size: calc(100%/3) 0% ,calc(100%/3) 100%,calc(100%/3) 100%;
+                }
+                50% {
+                    background-size: calc(100%/3) 100%,calc(100%/3) 0% ,calc(100%/3) 100%;
+                }
+                66% {
+                    background-size: calc(100%/3) 100%,calc(100%/3) 100%,calc(100%/3) 0%;
+                }
+            }
+            .dots-7 {
+                width: 42.5%;
+                aspect-ratio: 4;
+                --_g: no-repeat radial-gradient(circle closest-side,#fff 90%,#ffffff00);
+                background: var(--_g) 0% 50%, var(--_g) 50% 50%, var(--_g) 100% 50%;
+                background-size: calc(100%/3) 100%;
+                animation: d7 1s infinite linear;
+            }
+        }
+    }    
+}

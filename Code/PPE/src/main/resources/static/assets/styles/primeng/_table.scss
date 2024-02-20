@@ -1,0 +1,75 @@
+@import '../constants/index';
+
+p-table.purple-table{
+
+    div.p-datatable{
+
+        th.p-sortable-column.p-highlight{
+            background: #d9daf6;
+            color: #{$primary-color};
+
+            &:focus{
+                box-shadow: inset 0 0 0 0.15rem #{$box-shadow-color};
+            }
+        }
+
+        tbody.p-datatable-tbody{
+
+            tr{
+                &:focus{
+                    outline: 0.15rem solid #{$box-shadow-color};
+                    outline-offset: 0.15rem;
+                }
+            }
+
+            tr.p-highlight{
+                color: #{$primary-color};
+                background: #d9daf6;
+            }
+        }  
+    } 
+
+    div.p-datatable-wrapper{
+        background: white;
+    }
+
+    p-paginator{
+        div.p-paginator{
+
+            button.p-link{
+                &:focus{
+                    box-shadow: 0 0 0 0.2rem #{$box-shadow-color};
+                }
+            }
+            
+            span.p-paginator-pages{
+                button.p-paginator-page.p-highlight{
+                    background: #d9daf6;
+                    border-color: #{$box-shadow-color} ;
+                    color: #{$primary-color};
+                }
+            } 
+
+            p-dropdown{
+                div.p-dropdown{
+                    &:not(.p-disabled):hover{
+                        border-color: #{$primary-color};
+                    }
+
+                    &:not(.p-disabled).p-focus{
+                        box-shadow: 0 0 0 .2rem #{$box-shadow-color};
+                    }
+
+                    div.p-dropdown-panel{
+                        ul.p-dropdown-items{
+                            li.p-dropdown-item.p-highlight{
+                                color: #{$primary-color};
+                                background: #d9daf6;
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    }   
+}

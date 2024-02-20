@@ -1,0 +1,65 @@
+@use "/src/assets/styles/constants/index" as *;
+
+section.login-container{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+
+    div.upper-band{
+        display: flex;
+        justify-content: flex-end;
+        //height: 5.5rem;
+        @include primary-upper-radial-gradient;
+        flex: 0 1 auto;
+        box-shadow:
+            0px 0.6px 1.9px rgba(0, 0, 0, 0.045),
+            0px 1.3px 4.3px rgba(0, 0, 0, 0.07),
+            0px 2.4px 7.7px rgba(0, 0, 0, 0.089),
+            0px 4px 12.8px rgba(0, 0, 0, 0.106),
+            0px 6.6px 21.2px rgba(0, 0, 0, 0.121),
+            0px 11.6px 37px rgba(0, 0, 0, 0.135),
+            0px 25px 80px rgba(0, 0, 0, 0.15);
+
+
+        div.brand-container{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            img.brand-logo{
+                width: 60px;
+                margin: .7rem 2rem;
+            }
+
+            span.brand-name{
+                color: #fff;
+                font-size: 25px;
+                letter-spacing: 2px;
+                word-spacing: 7px;
+
+                font-family: "Didact Gothic", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+
+        div.options-container{
+            display: flex;
+            align-items: center;
+            padding: 0 1rem 0 1rem;
+        }
+
+    }
+
+    div.content-container{        
+        flex: 1 1 auto;
+   
+    }
+
+    div.footer{
+        height: 3.5rem;
+        @include primary-footer-radial-gradient;
+        flex: 0 1 auto;
+    }
+}

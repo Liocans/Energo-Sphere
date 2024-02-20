@@ -1,0 +1,18 @@
+@import '../constants/index';
+
+p-selectbutton.purple-selectbutton{
+    div.p-selectbutton{
+        div.p-button.p-highlight{
+            background: #{$primary-color};
+            border-color: #{$secondary-color};
+
+            &:hover{
+                background: #{$hover-color};
+            }
+
+            &:focus{
+                box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #{$box-shadow-color}, 0 1px 2px 0 black;
+            }
+        }
+    }
+}

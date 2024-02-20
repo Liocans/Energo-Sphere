@@ -1,0 +1,29 @@
+<div  class="customer-form-container dialog-component">
+    <section class="form-section">
+        <form class="grid-form" [formGroup]="customerForm">   
+            <label class="label" >{{ "name" | translate }}<span>*</span></label>
+            <input class="field purple-input" formControlName="name" type="text" pInputText />
+                
+            <label class="label" >{{ "surname" | translate }}<span>*</span></label>
+            <input class="field purple-input" formControlName="surname" type="text" pInputText />
+                
+            <label class="label" >{{ "phonenumber" | translate }}</label>
+            <p-inputNumber class="field form-inputNumber purple-inputnumber" prefix="(0)" formControlName="phoneNumber" ></p-inputNumber>
+                
+            <label class="label" >{{ "email" | translate }}<span>*</span></label>
+            <input class="field purple-input" formControlName="email" type="text" pInputText />
+           
+        </form>
+    </section>
+    <section class="form-required">
+        <div>required*</div>
+    </section>
+    <app-form-status [validity]= "customerForm.valid" ></app-form-status>
+    <div>
+        <button  pButton label='{{ "cancel" | translate }}' icon="pi pi-times" class="p-button-text purple-button-text" (click)="cancelDialog()"></button>
+        <button [disabled]="!customerForm.valid"  pButton label='{{ "save" | translate }}' icon="pi pi-check" class="p-button-text purple-button-text" (click)="saveDialog()"></button>
+    </div>
+    <!--Dialogs-->
+    <p-confirmDialog class="purple-confirmdialog" key="cancelDialog" header="Cancel operation?" icon="pi pi-exclamation-triangle"></p-confirmDialog>
+    <p-confirmDialog class="purple-confirmdialog" key="saveDialog" header="Confirmation" icon="pi pi-exclamation-triangle"></p-confirmDialog>
+</div>

@@ -1,0 +1,93 @@
+@use "/src/assets/styles/constants/index" as *;
+
+section.user-card{
+    width: 17rem;
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: .3rem;
+    
+    border-radius: 5px;
+
+    .header{
+        width: 100%;
+        padding: 1.3rem 1rem;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .user-avatar{
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+        .user-infos{
+            padding-left: .7rem;
+            width: 87%;
+
+            display: flex;
+            flex-direction: column;
+
+            div.user-info-row{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                i{
+                    color: #ffffff;
+                    padding: 0 .4rem;
+                }
+
+                span{
+                    color: #ffffff;
+                    text-overflow: ellipsis;
+                    overflow:hidden;
+                    white-space: nowrap;
+                }
+
+                span.user-name{                  
+                    font-size: 1rem;                    
+                }
+
+                span.role{
+                    display: flex;
+                    justify-content: center;
+                    font-size: .9rem;
+                    text-transform: lowercase;
+                    border-radius: 15px;
+                    @include secondary-linear-gradient;
+                    padding: .1rem 1.5rem;
+                    min-width: 50%;                    
+                }
+
+            }
+        }
+    }
+
+    .actions{
+        
+        border-top: 1px solid rgb(96, 104, 119);
+
+        padding: .5rem 0.2rem;
+
+        display: flex;
+        justify-content: space-evenly;
+
+        .btn{
+
+            color: #ffffff;
+            font-size: .9rem;
+
+            &:hover{
+                cursor: pointer;
+                color: #8ea9ba;
+            }
+        }
+    }
+}

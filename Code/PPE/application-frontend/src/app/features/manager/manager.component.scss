@@ -1,0 +1,59 @@
+@use "/src/assets/styles/constants/index" as *;
+
+section.manager-container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+
+    section.menu-section{
+        height: 100vh;
+        @include primary-linear-gradient;
+
+        box-shadow:
+            6.4px 0px 7px rgba(0, 0, 0, 0.11),
+            15.6px 0px 16.8px rgba(0, 0, 0, 0.081),
+            27.1px 0px 31.6px rgba(0, 0, 0, 0.07),
+            40.1px 0px 56.3px rgba(0, 0, 0, 0.062),
+            53.4px 0px 105.3px rgba(0, 0, 0, 0.051),
+            63px 0px 252px rgba(0, 0, 0, 0.033)
+            ;
+    }
+
+    section.data-section{
+        width: 100%;
+        height: 100%;
+        
+        .content-container{
+            width: 100%;
+            height: 100%;
+            padding: 2rem 3.8rem;
+            
+            .content-view-container{
+                width: 100%;
+                height: 100%;
+                padding: 1rem;
+
+                overflow-y: auto;
+                scrollbar-width: thin;
+
+                background-color: #ececec;
+                border-radius: 10px;
+
+                background-image: url(/assets/images/gray_logo.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                
+
+                &:before{
+                    
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    bottom: 0px;
+                    left: 0px;
+                }
+            }
+        }
+    }
+}

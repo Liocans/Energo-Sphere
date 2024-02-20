@@ -1,0 +1,20 @@
+@import '../constants/index';
+
+p-checkbox.purple-checkbox{
+    div.p-checkbox{
+        div.p-checkbox-box.p-highlight{
+            background: #{$primary-color};
+            border-color: #{$primary-color};
+
+            &:hover{
+                background-color: #{$hover-color}; 
+            }
+        }
+
+        &:not(.p-checkbox-disabled){
+            div.p-checkbox-box:hover{
+                border-color: #{$primary-color};
+            }
+        }
+    }
+}

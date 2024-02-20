@@ -1,0 +1,44 @@
+/* Stylesheet.css */
+
+/* AnchorPane styles */
+.AnchorPane {
+    -fx-background-color: #f0f0f0; /* Light gray background */
+}
+
+/* TitleState styles */
+.TitleState {
+    -fx-font-size: 24px; /* Large font size for titles */
+    -fx-text-fill: #333; /* Dark gray text color */
+    -fx-padding: 8px; /* Padding around the title */
+    -fx-background-color: #fff; /* White background color for title */
+    -fx-border-radius: 5px; /* Rounded corners for the title */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 0); /* Shadow effect */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-color: #ccc; /* Border color */
+}
+
+/* State styles */
+.State {
+    -fx-font-size: 18px; /* Medium font size for states */
+    -fx-text-fill: #666; /* Medium gray text color */
+}
+
+/* Button styles */
+.Button {
+    -fx-background-color: #007bff; /* Blue button background color */
+    -fx-text-fill: #fff; /* White button text color */
+    -fx-font-size: 14px; /* Small font size for buttons */
+    -fx-padding: 8px 16px; /* Padding for buttons */
+    -fx-background-radius: 5px; /* Rounded corners for buttons */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 0); /* Shadow effect */
+}
+
+.Button:hover {
+    -fx-background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* BorderPane styles */
+.BorderPane {
+    -fx-background-color: #fff; /* White background for the border pane */
+    -fx-padding: 20px; /* Add some padding around the content */
+}

@@ -1,0 +1,36 @@
+<div  class="customer-creation-form-container dialog-component">
+    <section class="form-section">
+        <form class="grid-form" [formGroup]="customerForm">   
+            <label class="label" >{{ "name" | translate }}<span>*</span></label>
+            <input class="field purple-input" formControlName="name" type="text" pInputText />
+                
+            <label class="label" >{{ "surname" | translate }}<span>*</span></label>
+            <input class="field purple-input" formControlName="surname" type="text" pInputText />
+                
+            <label class="label" >{{ "phonenumber" | translate }}<span>*</span></label>
+            <p-inputNumber class="field form-inputNumber purple-inputnumber" formControlName="phoneNumber" prefix="(0)"></p-inputNumber>
+                
+            <label class="label" >{{ "email" | translate }}<span>*</span></label>
+            <input class="field purple-input" formControlName="email" type="text" pInputText/>
+    
+            <label class="label" >{{ "language" | translate }}<span>*</span></label>
+            <p-dropdown appendTo="body" class="field form-dropdown purple-dropdown"  formControlName="language" [options]="languages" optionLabel="value" placeholder='{{ "selectlanguage" | translate }}' [showClear]="true"></p-dropdown>
+    
+            <label class="label" for="password-input" >{{ "password" | translate }}<span>*</span></label>
+            <p-password id ="password-input" class="field purple-inputpsswd" formControlName="password" [toggleMask]="true" [feedback]="false"></p-password>
+           
+        </form>
+    </section>
+    <section class="form-required">
+        <div>required*</div>
+    </section>
+    <app-form-status [validity]= "customerForm.valid" ></app-form-status>
+    <section>
+        <button  pButton label='{{ "cancel" | translate }}' icon="pi pi-times" class="p-button-text purple-button-text" (click)="cancelDialog()"></button>
+        <button [disabled]="!customerForm.valid"  pButton label='{{ "save" | translate }}' icon="pi pi-check" class="p-button-text purple-button-text" (click)="saveDialog()"></button>
+    </section>
+    <p-confirmDialog class="purple-confirmdialog" key="cancelDialog" header='{{ "cancelTitle" | translate }}' icon="pi pi-exclamation-triangle" acceptLabel = '{{ "yes" | translate }}' rejectLabel = '{{ "no" | translate }}'></p-confirmDialog>
+    <p-confirmDialog class="purple-confirmdialog" key="saveDialog" header='{{ "saveTitle" | translate }}' icon="pi pi-exclamation-triangle" acceptLabel = '{{ "yes" | translate }}' rejectLabel = '{{ "no" | translate }}'></p-confirmDialog>
+</div>
+<!--Dialogs-->
+

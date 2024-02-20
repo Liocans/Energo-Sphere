@@ -1,0 +1,13 @@
+com.PDLB.PPE
+com.PDLB.PPE.API.controller
+com.PDLB.PPE.API.entity
+com.PDLB.PPE.API.IntegrationTest
+com.PDLB.PPE.API.repository
+com.PDLB.PPE.API.security
+com.PDLB.PPE.API.service
+com.PDLB.PPE.API.UnitTest
+com.PDLB.PPE.DTO.mapper
+com.PDLB.PPE.DTO.model
+com.PDLB.PPE.graphic
+com.PDLB.PPE.graphic.model
+com.PDLB.PPE.Utility

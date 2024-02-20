@@ -1,0 +1,18 @@
+<div class="provider-view view">
+    <section class="header-view">
+        
+    </section>
+    <section class="table-toolbar">
+        
+    </section>
+    <div class="table-container">
+        <app-dynamic-table 
+            [collection]="providers" 
+            [cols]="cols"
+            [isLoading]="isLoading"
+            [isEditable]="false"
+            [isDeletable]="false"
+            [isPaginable]="true">
+        </app-dynamic-table>
+    </div>
+</div>

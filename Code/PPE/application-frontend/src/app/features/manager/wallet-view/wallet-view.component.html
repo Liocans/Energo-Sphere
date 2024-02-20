@@ -1,0 +1,33 @@
+<div  class="wallet-view view">
+    <section class="header-view">
+
+    </section>
+    <section class="table-toolbar">
+        <p-toolbar class="toolbar" styleClass="mb-4 gap-2">
+            <ng-template pTemplate="left" class="left-side-toolbar">
+                <button  pButton (click)="createFormDialog()" label='{{ "new" | translate }}' icon="pi pi-plus" class="p-button-sm mr-2 purple-button"></button>
+                <button  pButton (click)="createFormDialogMeter()" label='{{ "addmeter" | translate }}' [disabled]="selectedWallet == null" icon="pi pi-plus" class="p-button-sm mr-2 purple-button"></button>
+            </ng-template>
+            <ng-template pTemplate="right" class="right-side-toolbar">
+                <span *ngIf="isAdmin()">
+                    <button  pButton label='{{ "managebuilding" | translate }}' (click)="onShowBuildingFormClick()" [disabled]="selectedWallet == null" icon="pi pi-building" class="toolbar-btn p-button-sm mr-2 purple-button"></button>
+                </span>
+                <button  pButton label='{{ "showbuildmeter" | translate }}' (click)="onShowMetersClick()" [disabled]="selectedWallet == null"  icon="pi pi-external-link" class="toolbar-btn p-button-sm mr-2 purple-button"></button>
+                <button  pButton (click)="onShowChartClick()" [disabled]="isAdministrator()"label='{{ "visualcons" | translate }}' icon="pi pi-info-circle" class="p-button-sm purple-button"></button>
+            </ng-template>
+        </p-toolbar>
+    </section>
+    <section class="table-container">
+        <app-dynamic-table 
+            [collection] = "wallets"
+            [totalRecords]="walletsCounter" 
+            [cols] = "cols" 
+            [isLoading] = "isLoading"
+            [isEditable] = "isAdmin()"
+            [isDeletable] = "isAdmin()"
+            [isPaginable]="true"
+            (onSelect) = "onWalletSelected($event)"
+            (onPageChange)="updatePaginationParams($event)">
+        </app-dynamic-table>
+    </section>
+</div>

@@ -1,0 +1,126 @@
+@use "/src/assets/styles/constants/index" as *;
+
+$c-black: #111;
+$c-white: #fff;
+$c-blues: #2980B9, #0074D9, #009FE3;
+$c-greys: #343C3F, #A2ACB0, #D9E1E4;
+$c-greens: #27AE60, #2ECC40, #01FF70;
+$c-reds: #C0392B, #FF4136, #E74C3C;
+$c-yellows: #F39C12, #ffb70f, #cd8513;
+$c-purples: #532E62, #8E44AD, #9B59B6;
+
+div.notification {
+  
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  border-radius: 10px;
+  margin: 40px auto 0;
+  background-color: nth($c-blues, 2);
+  color: #fff;
+  transition: all 0.2s ease;
+  
+  &.is-hidden {
+    display: none;
+  }
+
+  &.notification--waiting {
+    background-color: nth($c-yellows, 1);
+  }
+  
+  &.notification--alert {
+    background-color: nth($c-reds, 2);
+  }
+  
+  &.notification--accept {
+    background-color: nth($c-greens, 2);
+  }
+  
+  &.notification--read {
+    background-color: nth($c-purples, 3);
+  }
+
+  div.notification-icon {
+    display: flex;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    background-color: rgba(black, 0.25);
+    
+    padding: .5rem;
+
+    i.icon {
+      font-size: 20px;
+    }
+  }
+
+  div.content-body {  
+    width: 94%;
+    padding: .7rem .5rem;
+  
+    div.message-section{
+      p.message{
+        background-color: rgba(white, 0.15);
+        padding: .5rem;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+    }
+
+    div.contact-section{
+      padding: .5rem;
+      font-size: 13px;
+    }
+    
+    div.update-date-section{
+      display: flex;
+      justify-content: flex-end;
+      font-size: 14px;
+    }
+
+    div.action-section{
+      padding: .5rem;
+
+      button.p-button{
+        padding: 0.3rem .7rem;
+        margin-right: .4rem;
+
+        &.read-action{
+          background-color: nth($c-purples, 3);
+          border: 1px solid nth($c-white, 1);
+        
+          &:hover{
+            background-color: nth($c-purples, 2);
+          }
+
+          &:focus{
+            box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px nth($c-purples, 3), 0 1px 2px 0 black;
+          }
+        }
+
+        &.pen-action{
+          background-color: nth($c-yellows, 1);
+          border: 1px solid nth($c-white, 1);
+
+          &:hover{
+            background-color: #00000023;
+            border: 1px solid nth($c-yellows, 3);
+          }
+
+          &:focus{
+            box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px nth($c-yellows, 2), 0 1px 2px 0 black;
+          }
+        }
+
+        i{
+          margin: 0 .3rem;
+
+          &.pi{
+            font-size: .8rem;
+          }
+        }
+      }
+    }
+  }
+}
+

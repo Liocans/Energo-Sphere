@@ -1,0 +1,61 @@
+- Building
+	-id
+	-name
+	-city
+	-isMain
+	-number
+	-room
+	-street
+	-zipcode
+	-meters
+
+- Contract
+	-id
+	-startDate
+	-endDate
+	-provider
+	-building
+	-customer
+	-contractEnergyType (Arraylist)
+	-contractType
+
+
+- ContractType
+	-id
+	-value
+
+- Customer
+	-id
+	-name
+	-surname
+	-phoneNumber
+	-email
+	-buildings (Arraylist)
+
+- EnergyType
+	-id
+	-value
+
+- Meter
+	-id
+	-isNumeric
+	-value
+	-energyType
+	-meterHistory(Arraylist)
+
+- Provider
+	-id
+	-name
+	-street+
+	-number
+	-city
+	-country
+	-zipCode
+	-customers (Arraylist)
+	-energyType (ArrayList)
+
+- Wallet
+	-id
+	-building
+	-meters (ArrayList)
+	-walletCustomer

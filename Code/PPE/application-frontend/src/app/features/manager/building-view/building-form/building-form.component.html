@@ -1,0 +1,37 @@
+<div  class="dialog-component">
+    <section class="form-section">
+        <form class="grid-form" [formGroup]="buildingForm">
+            <label class="label" >{{ "name" | translate }}</label>
+            <input class="field purple-input" formControlName="buildingName" type="text" pInputText />
+                
+            <label class="label" >{{ "city" | translate }}<span>*</span></label>
+            <input class="field purple-input" formControlName="city" type="text" pInputText />
+               
+            <label class="label" >{{ "number" | translate }}<span>*</span></label>
+            <p-inputNumber class="field form-inputNumber purple-inputnumber" [min]="0" formControlName="number"></p-inputNumber>
+                
+            <label class="label"  >{{ "room" | translate }}<span>*</span></label>
+            <p-inputNumber class="field form-inputNumber purple-inputnumber" [min]="0" formControlName="room"></p-inputNumber>
+                
+            <label class="label"  >{{ "street" | translate }}<span>*</span></label>
+            <input class="field purple-input" formControlName="street" type="text" pInputText />
+                
+            <label class="label"  >{{ "zipcode" | translate }}<span>*</span></label>
+            <p-inputNumber class="field form-inputNumber purple-inputnumber" [min]="0" formControlName="zipCode"></p-inputNumber>
+                
+            <label class="label"  >{{ "mainbuilding" | translate }}<span>*</span></label>
+            <p-checkbox class="field purple-checkbox" formControlName="main" [binary]="true"></p-checkbox>        
+        </form>
+    </section>
+    <section class="form-required">
+        <div>required*</div>
+    </section>
+    <app-form-status [validity]= "buildingForm.valid" ></app-form-status>
+    <div>
+        <button  pButton label='{{ "cancel" | translate }}' icon="pi pi-times" class="p-button-text purple-button-text" (click)="cancelDialog()"></button>
+        <button [disabled]="!buildingForm.valid"  pButton label='{{ "save" | translate }}' icon="pi pi-check" class="p-button-text purple-button-text" (click)="saveDialog()"></button>
+    </div>
+    <!--Dialogs-->
+    <p-confirmDialog class="purple-confirmdialog" key="cancelDialog" header="Cancel operation?" icon="pi pi-exclamation-triangle"></p-confirmDialog>
+    <p-confirmDialog class="purple-confirmdialog" key="saveDialog" header="Confirmation" icon="pi pi-exclamation-triangle"></p-confirmDialog>
+</div>

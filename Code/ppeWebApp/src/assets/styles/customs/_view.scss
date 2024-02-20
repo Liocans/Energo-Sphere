@@ -1,0 +1,13 @@
+div.view{
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    section.table-container{
+        flex-grow: 2;
+        height: 72%;
+    }
+
+    
+}

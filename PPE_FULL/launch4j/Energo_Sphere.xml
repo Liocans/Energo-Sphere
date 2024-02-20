@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\Code\PPE\build\libs\PPE.jar</jar>
+  <outfile>C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\Executable\Energo Sphere.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>https://www.java.com/download/</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\Document\Logo\thicker_logo.ico</icon>
+  <singleInstance>
+    <mutexName>Energo Sphere.exe</mutexName>
+    <windowTitle>Energo Sphere.exe</windowTitle>
+  </singleInstance>
+  <jre>
+    <path>JRE</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0</txtFileVersion>
+    <fileDescription>Web application to manage your energy portfolio</fileDescription>
+    <copyright>Copyright © 2024 Gatta Nicolas and Vancauwenberghe Emilien. All rights reserved. </copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0</txtProductVersion>
+    <productName>Energo Sphere</productName>
+    <companyName></companyName>
+    <internalName>PPE</internalName>
+    <originalFilename>Energo Sphere.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>

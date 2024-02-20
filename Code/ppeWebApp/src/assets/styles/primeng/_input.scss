@@ -1,0 +1,66 @@
+@import '../constants/index';
+
+p-inputNumber input{
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+p-inputNumber.form-inputNumber{
+    span.p-inputnumber{
+        width: 100%;
+    }
+}
+
+p-inputNumber.purple-inputnumber{
+    input.p-inputtext{
+        &:enabled{
+            &:hover{
+                border-color: #{$primary-color};
+            }
+    
+            &:focus{
+                box-shadow: 0 0 0 0.2rem #{$box-shadow-color};
+                border-color: #{$primary-color};
+            }
+        }
+    }  
+}
+
+p-password{
+    div.p-password{
+        width: 100%;
+
+        input.p-inputtext{
+            width: 100%;
+        }
+    }
+}
+
+p-password.purple-inputpsswd{
+    div.p-password{
+        input.p-inputtext{
+            &:hover{
+                border-color: #{$primary-color};  
+            }  
+            
+            &:focus{
+                box-shadow: 0 0 0 0.2rem #{$box-shadow-color};
+                border-color: #{$primary-color};
+            }
+        }
+    }
+}
+
+input.purple-input{
+    &:enabled{
+        &:hover{
+            border-color: #{$primary-color};
+        }
+
+        &:focus{
+            box-shadow: 0 0 0 0.2rem #{$box-shadow-color};
+            border-color: #{$primary-color};
+        }
+    }
+}

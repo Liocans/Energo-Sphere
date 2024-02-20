@@ -1,0 +1,21 @@
+@use "/src/assets/styles/constants/index" as *;
+
+.form-status{
+    padding: 1rem;
+    .text-form-status{
+        border-radius: 5px;
+        padding: 0.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .valid-form-status{
+        background: rgba(103, 255, 103, 0.2);
+        color: green;
+    }
+    
+    .invalid-form-status{
+        background: rgba(255, 103, 103, 0.2);
+        color:red;
+    }
+}

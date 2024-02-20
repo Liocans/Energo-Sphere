@@ -1,0 +1,26 @@
+<div  class="notification dialog-component">
+    <section class="form-section">
+        <form class="grid-form notification-form" [formGroup]="notificationForm">
+            <label *ngIf="isAdmin()" class="label" >{{ "customer" | translate }}<span>*</span></label>
+            <input *ngIf="isAdmin()" class="field purple-input" formControlName = "customerId" type="text" pInputText/>
+            
+            <label *ngIf="!isAdmin()" class="label">{{ "provider" | translate }}<span>*</span></label>
+            <input *ngIf="!isAdmin()" class="field purple-input" formControlName = "providerId" pInputText/>
+            
+            <label class="label">{{ "message" | translate }}<span>*</span></label>
+            <textarea class="field" formControlName="message" pInputText></textarea> 
+        </form>
+    </section>  
+    <section class="form-required">
+        <div>required*</div>
+    </section>
+    <section class="form-validation">
+        <app-form-status [validity]= "notificationForm.valid" ></app-form-status>
+    </section>
+    <div>
+        <button  pButton label='{{ "cancel" | translate }}' icon="pi pi-times" class="p-button-text purple-button-text" (click)="cancelDialog()"></button>
+        <button [disabled]="!notificationForm.valid"  pButton label='{{ "save" | translate }}' icon="pi pi-check" class="p-button-text purple-button-text" (click)="saveDialog()"></button>
+    </div>
+    <p-confirmDialog class="purple-confirmdialog" key="cancelDialog" header="Cancel operation?" icon="pi pi-exclamation-triangle"></p-confirmDialog>
+    <p-confirmDialog class="purple-confirmdialog" key="saveDialog" header="Confirmation" icon="pi pi-exclamation-triangle"></p-confirmDialog>
+</div>

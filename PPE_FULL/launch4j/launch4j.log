@@ -1,0 +1,319 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\Executable\PPE.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Create mutex:	PPE
+Working dir:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\Executable\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;E:\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\chocolatey\bin;E:\nodejs\;E:\MySQL\MySQL Shell 8.0\bin\;E:\Python-3.11.5\Scripts\;E:\Python-3.11.5\;E:\Python-3.12.1\Scripts\;E:\Python-3.12.1\;E:\Python-3.5.1\Scripts\;E:\Python-3.5.1\;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\;C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;E:\Flutter\flutter\bin;C:\Users\Utilisateur\AppData\Local\GitHubDesktop\bin;E:\PyCharm Community Edition 2023.2.4\bin;;E:\ffmpeg\bin;E:\Python-3.10.8\;E:\Python-3.10.8\Scripts\;C:\Users\Utilisateur\.dotnet\tools;E:\Python\;E:\Python\Scripts\;C:\Users\Utilisateur\AppData\Roaming\npm;C:\Program Files (x86)\Java\jre-1.8\bin
+JRE paths:	;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;E:\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\chocolatey\bin;E:\nodejs\;E:\MySQL\MySQL Shell 8.0\bin\;E:\Python-3.11.5\Scripts\;E:\Python-3.11.5\;E:\Python-3.12.1\Scripts\;E:\Python-3.12.1\;E:\Python-3.5.1\Scripts\;E:\Python-3.5.1\;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\;C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;E:\Flutter\flutter\bin;C:\Users\Utilisateur\AppData\Local\GitHubDesktop\bin;E:\PyCharm Community Edition 2023.2.4\bin;;E:\ffmpeg\bin;E:\Python-3.10.8\;E:\Python-3.10.8\Scripts\;C:\Users\Utilisateur\.dotnet\tools;E:\Python\;E:\Python\Scripts\;C:\Users\Utilisateur\AppData\Roaming\npm;C:\Program Files (x86)\Java\jre-1.8\bin
+Check launcher:	C:\Python312\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Python312\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\bin\javaw.exe (not found)
+Check launcher:	E:\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\150\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Docker\Docker\resources\bin\javaw.exe (not found)
+Check launcher:	E:\Windows Kits\10\Windows Performance Toolkit\bin\javaw.exe (not found)
+Check launcher:	C:\ProgramData\chocolatey\bin\javaw.exe (not found)
+Check launcher:	E:\nodejs\bin\javaw.exe (not found)
+Check launcher:	E:\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.11.5\Scripts\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.11.5\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.12.1\Scripts\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.12.1\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.5.1\Scripts\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.5.1\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	E:\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	E:\Flutter\flutter\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Local\GitHubDesktop\bin\javaw.exe (not found)
+Check launcher:	E:\PyCharm Community Edition 2023.2.4\bin\javaw.exe (not found)
+Check launcher:	E:\ffmpeg\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.10.8\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.10.8\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\.dotnet\tools\bin\javaw.exe (not found)
+Check launcher:	E:\Python\bin\javaw.exe (not found)
+Check launcher:	E:\Python\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Java\jre-1.8\bin\javaw.exe (OK)
+Check javac:	C:\Program Files (x86)\Java\jre-1.8\bin\javac.exe (not found)
+Error msg:	This application requires a Java Runtime Environment.
+Open URL:	https://www.java.com/download/
+
+
+Version:	3.50
+CmdLine:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\Executable\PPE.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Create mutex:	PPE
+Working dir:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\Executable\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;E:\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\chocolatey\bin;E:\nodejs\;E:\MySQL\MySQL Shell 8.0\bin\;E:\Python-3.11.5\Scripts\;E:\Python-3.11.5\;E:\Python-3.12.1\Scripts\;E:\Python-3.12.1\;E:\Python-3.5.1\Scripts\;E:\Python-3.5.1\;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\;C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;E:\Flutter\flutter\bin;C:\Users\Utilisateur\AppData\Local\GitHubDesktop\bin;E:\PyCharm Community Edition 2023.2.4\bin;;E:\ffmpeg\bin;E:\Python-3.10.8\;E:\Python-3.10.8\Scripts\;C:\Users\Utilisateur\.dotnet\tools;E:\Python\;E:\Python\Scripts\;C:\Users\Utilisateur\AppData\Roaming\npm;C:\Program Files (x86)\Java\jre-1.8\bin
+JRE paths:	;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;E:\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\chocolatey\bin;E:\nodejs\;E:\MySQL\MySQL Shell 8.0\bin\;E:\Python-3.11.5\Scripts\;E:\Python-3.11.5\;E:\Python-3.12.1\Scripts\;E:\Python-3.12.1\;E:\Python-3.5.1\Scripts\;E:\Python-3.5.1\;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\;C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;E:\Flutter\flutter\bin;C:\Users\Utilisateur\AppData\Local\GitHubDesktop\bin;E:\PyCharm Community Edition 2023.2.4\bin;;E:\ffmpeg\bin;E:\Python-3.10.8\;E:\Python-3.10.8\Scripts\;C:\Users\Utilisateur\.dotnet\tools;E:\Python\;E:\Python\Scripts\;C:\Users\Utilisateur\AppData\Roaming\npm;C:\Program Files (x86)\Java\jre-1.8\bin
+Check launcher:	C:\Python312\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Python312\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\bin\javaw.exe (not found)
+Check launcher:	E:\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\150\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Docker\Docker\resources\bin\javaw.exe (not found)
+Check launcher:	E:\Windows Kits\10\Windows Performance Toolkit\bin\javaw.exe (not found)
+Check launcher:	C:\ProgramData\chocolatey\bin\javaw.exe (not found)
+Check launcher:	E:\nodejs\bin\javaw.exe (not found)
+Check launcher:	E:\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.11.5\Scripts\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.11.5\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.12.1\Scripts\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.12.1\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.5.1\Scripts\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.5.1\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	E:\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	E:\Flutter\flutter\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Local\GitHubDesktop\bin\javaw.exe (not found)
+Check launcher:	E:\PyCharm Community Edition 2023.2.4\bin\javaw.exe (not found)
+Check launcher:	E:\ffmpeg\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.10.8\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.10.8\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\.dotnet\tools\bin\javaw.exe (not found)
+Check launcher:	E:\Python\bin\javaw.exe (not found)
+Check launcher:	E:\Python\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Java\jre-1.8\bin\javaw.exe (OK)
+Check javac:	C:\Program Files (x86)\Java\jre-1.8\bin\javac.exe (not found)
+Error msg:	This application requires a Java Runtime Environment.
+Open URL:	https://www.java.com/download/
+
+
+Version:	3.50
+CmdLine:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\Executable\PPE.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Create mutex:	PPE
+Working dir:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\Executable\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;E:\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\chocolatey\bin;E:\nodejs\;E:\MySQL\MySQL Shell 8.0\bin\;E:\Python-3.11.5\Scripts\;E:\Python-3.11.5\;E:\Python-3.12.1\Scripts\;E:\Python-3.12.1\;E:\Python-3.5.1\Scripts\;E:\Python-3.5.1\;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\;C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;E:\Flutter\flutter\bin;C:\Users\Utilisateur\AppData\Local\GitHubDesktop\bin;E:\PyCharm Community Edition 2023.2.4\bin;;E:\ffmpeg\bin;E:\Python-3.10.8\;E:\Python-3.10.8\Scripts\;C:\Users\Utilisateur\.dotnet\tools;E:\Python\;E:\Python\Scripts\;C:\Users\Utilisateur\AppData\Roaming\npm;C:\Program Files (x86)\Java\jre-1.8\bin
+JRE paths:	;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;E:\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\chocolatey\bin;E:\nodejs\;E:\MySQL\MySQL Shell 8.0\bin\;E:\Python-3.11.5\Scripts\;E:\Python-3.11.5\;E:\Python-3.12.1\Scripts\;E:\Python-3.12.1\;E:\Python-3.5.1\Scripts\;E:\Python-3.5.1\;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\;C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;E:\Flutter\flutter\bin;C:\Users\Utilisateur\AppData\Local\GitHubDesktop\bin;E:\PyCharm Community Edition 2023.2.4\bin;;E:\ffmpeg\bin;E:\Python-3.10.8\;E:\Python-3.10.8\Scripts\;C:\Users\Utilisateur\.dotnet\tools;E:\Python\;E:\Python\Scripts\;C:\Users\Utilisateur\AppData\Roaming\npm;C:\Program Files (x86)\Java\jre-1.8\bin
+Check launcher:	C:\Python312\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Python312\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\bin\javaw.exe (not found)
+Check launcher:	E:\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\150\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Docker\Docker\resources\bin\javaw.exe (not found)
+Check launcher:	E:\Windows Kits\10\Windows Performance Toolkit\bin\javaw.exe (not found)
+Check launcher:	C:\ProgramData\chocolatey\bin\javaw.exe (not found)
+Check launcher:	E:\nodejs\bin\javaw.exe (not found)
+Check launcher:	E:\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.11.5\Scripts\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.11.5\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.12.1\Scripts\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.12.1\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.5.1\Scripts\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.5.1\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Local\Programs\Python\Python310\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	E:\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	E:\Flutter\flutter\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Local\GitHubDesktop\bin\javaw.exe (not found)
+Check launcher:	E:\PyCharm Community Edition 2023.2.4\bin\javaw.exe (not found)
+Check launcher:	E:\ffmpeg\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.10.8\bin\javaw.exe (not found)
+Check launcher:	E:\Python-3.10.8\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\.dotnet\tools\bin\javaw.exe (not found)
+Check launcher:	E:\Python\bin\javaw.exe (not found)
+Check launcher:	E:\Python\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Utilisateur\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Java\jre-1.8\bin\javaw.exe (OK)
+Check javac:	C:\Program Files (x86)\Java\jre-1.8\bin\javac.exe (not found)
+Error msg:	This application requires a Java Runtime Environment.
+
+
+Version:	3.50
+CmdLine:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\Executable\PPE.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Create mutex:	PPE
+Working dir:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\Executable\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	
+Java max ver:	
+JRE paths:	jre-1.8
+Check launcher:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\Executable\jre-1.8\bin\javaw.exe (OK)
+Check javac:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\Executable\jre-1.8\bin\javac.exe (not found)
+Error msg:	This application requires a Java Runtime Environment.
+
+
+Version:	3.50
+CmdLine:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\Executable\PPE.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Create mutex:	PPE.exe
+Error:		Instance already exists.
+
+
+Version:	3.50
+CmdLine:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\PPE.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Create mutex:	PPE.exe
+Working dir:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+JRE paths:	JRE
+Check launcher:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\JRE\bin\javaw.exe (OK)
+Version string: 1.017.000_006 / 64-Bit (OK)
+Launcher:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\JRE\bin\javaw.exe
+Launcher args:	-jar "C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\PPE.exe"
+Args length:	93/32768 chars
+Exit code:	-805306369, restarting the application!
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\PPE.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Create mutex:	PPE.exe
+Working dir:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+JRE paths:	JRE
+Check launcher:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\JRE\bin\javaw.exe (OK)
+Version string: 1.017.000_006 / 64-Bit (OK)
+Launcher:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\JRE\bin\javaw.exe
+Launcher args:	-jar "C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\PPE.exe"
+Args length:	93/32768 chars
+Exit code:	-805306369, restarting the application!
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\PPE.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Create mutex:	PPE.exe
+Working dir:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+JRE paths:	JRE
+Check launcher:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\JRE\bin\javaw.exe (OK)
+Version string: 1.017.000_006 / 64-Bit (OK)
+Launcher:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\JRE\bin\javaw.exe
+Launcher args:	-jar "C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\PPE.exe"
+Args length:	93/32768 chars
+Exit code:	-805306369, restarting the application!
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\PPE.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Create mutex:	PPE.exe
+Working dir:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+JRE paths:	JRE
+Check launcher:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\JRE\bin\javaw.exe (OK)
+Version string: 1.017.000_006 / 64-Bit (OK)
+Heap -Xms:	Requested 800 MB / 0%, Available: 13748 MB, Heap size: 800 MB
+Heap -Xmx:	Requested 2000 MB / 0%, Available: 13748 MB, Heap size: 2000 MB
+Launcher:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\JRE\bin\javaw.exe
+Launcher args:	-Xms800m -Xmx2000m -jar "C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\PPE.exe"
+Args length:	112/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\PPE.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Create mutex:	PPE.exe
+Working dir:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+JRE paths:	JRE
+Check launcher:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\JRE\bin\javaw.exe (OK)
+Version string: 1.017.000_006 / 64-Bit (OK)
+Launcher:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\JRE\bin\javaw.exe
+Launcher args:	-jar "C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\PPE.exe"
+Args length:	93/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\PPE.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Create mutex:	PPE.exe
+Working dir:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+JRE paths:	JRE
+Check launcher:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\JRE\bin\javaw.exe (OK)
+Version string: 1.017.000_006 / 64-Bit (OK)
+Launcher:	C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\JRE\bin\javaw.exe
+Launcher args:	-jar "C:\Users\Utilisateur\Desktop\Projet\Projet-de-Genie-Logiciel\PPE_FULL\launch4j\PPE.exe"
+Args length:	93/32768 chars
+Exit code:	0

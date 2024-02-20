@@ -1,0 +1,44 @@
+<div  class="d-table">
+    <p-table 
+        class="purple-table"
+        [columns]="cols" 
+        [value]="collection"
+        [scrollable]="true"
+        scrollHeight="flex"
+        [loading]="isLoading"
+        [lazy]="true"
+        (onLazyLoad)="loadCollectionLazy($event)"
+        selectionMode="single"
+        [(selection)]="selectedItem" 
+        (onRowSelect)="onSelectionSend()"
+        (onRowUnselect)="onSelectionSend()"
+        datakey="id" 
+        [paginator]="isPaginable" 
+        [rows]="rowsNumber" 
+        [totalRecords]="totalRecords"
+        [rowsPerPageOptions]="rowsPerPage"
+        styleClass="p-datatable-striped p-datatable-lg" 
+        [tableStyle]="{'min-width': '30rem'}"
+        [rowHover]="true">   
+        
+        <ng-template pTemplate="header" class="table-header">
+            <tr >
+                <th *ngFor="let col of cols">{{ col.header | translate }}</th>  
+                <th *ngIf="isEditable || isDeletable"></th>           
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" class="table-body" let-rowData >
+            <tr [pSelectableRow]="rowData" class="table-row" >
+                <td *ngFor="let col of cols" >
+                    {{ parseData(rowData, col.field) | translate}}
+                </td>     
+                <td class="actions-column" *ngIf="isEditable || isDeletable">
+                    <button (click)="onEditClick(rowData)" pButton *ngIf="isEditable" icon="pi pi-pencil" class="btn p-button-rounded p-button-outlined p-button-secondary mr-2 p-button-sm"></button>
+                    <button (click)="onDeleteClick(rowData.id)" pButton *ngIf="isDeletable" icon="pi pi-trash" class="btn p-button-rounded p-button-outlined p-button-danger p-button-sm"></button>
+                </td>           
+            </tr>
+        </ng-template>
+    </p-table>
+    <!--Dialogs-->
+    <p-confirmDialog class="purple-confirmdialog" key="deleteDialog" header="Delete confirmation" icon="pi pi-exclamation-triangle"></p-confirmDialog>
+</div>

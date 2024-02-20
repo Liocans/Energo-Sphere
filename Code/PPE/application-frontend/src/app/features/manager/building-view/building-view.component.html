@@ -1,0 +1,36 @@
+<div  class="building-view view">
+    <section class="header-view">
+        
+    </section>
+    <section class="table-toolbar">
+        <p-toolbar class="toolbar" styleClass="mb-4 gap-2">
+            <ng-template pTemplate="left" class="left-side-toolbar">
+                <div class="router-actions rv-separator">
+                    <button  pButton (click)="onPreviousClick()" label='{{ "previous" | translate }}' icon="pi pi-chevron-left" class="p-button-sm p-button-secondary"></button>
+                </div>
+                <div class="table-actions" *ngIf="isAdmin()">
+                    <button  pButton (click)="createFormDialog()" label='{{ "new" | translate }}' icon="pi pi-plus" class="p-button-sm purple-button"></button>
+                </div>        
+            </ng-template>
+            <ng-template pTemplate="right" class="right-side-toolbar">
+                <button  pButton (click)="onShowMetersClick()" [disabled]="selectedBuilding == null" label='{{ "showmeter" | translate }}' icon="pi pi-info-circle" class="p-button-sm purple-button"></button>
+                <button  pButton (click)="onShowChartClick()" [disabled]="selectedBuilding == null" label='{{ "visualcons" | translate }}' icon="pi pi-info-circle" class="p-button-sm purple-button"></button>
+            </ng-template>
+        </p-toolbar>
+    </section>
+    <section class="table-container">
+        <app-dynamic-table 
+            [collection]="buildings" 
+            [totalRecords]="buildingsCounter"
+            [cols]="cols" 
+            [isEditable] = "isAdmin()"
+            [isDeletable] = "isAdmin()"
+            [isLoading]="isLoading"
+            [isPaginable]="true"
+            (onEdit)="editFormDialog($event)" 
+            (onDelete)="deleteBuilding($event)"
+            (onSelect)="onBuildingSelected($event)"
+            (onPageChange)="updatePaginationParams($event)">
+        </app-dynamic-table>
+    </section>
+</div>
