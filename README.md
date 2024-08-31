@@ -1,4 +1,7 @@
 # Energo-Sphere
+<p align="center">
+  <img src="Document/Logo/Smaller_logo.png" alt="Project Logo" width="200">
+</p>
 
 ## Table of Contents
 1. [Project Description](#project-description)
