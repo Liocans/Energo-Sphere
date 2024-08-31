@@ -58,9 +58,9 @@ If the online database is not working, you will need to configure the project to
 1. Open the file: `Code/PPE/src/main/resources/application.properties`
 2. Comment out the following lines:
     ```properties
-    spring.datasource.url=jdbc:mysql://mysql-ppe-ppeapp.a.aivencloud.com:11779/ppe
-    spring.datasource.username=avnadmin
-    spring.datasource.password=AVNS_1bSFlIEPjo2SrYSP7L7
+    spring.datasource.url=jdbc:
+    spring.datasource.username=
+    spring.datasource.password=
     ```
 3. Uncomment the following lines:
     ```properties
