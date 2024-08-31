@@ -1,4 +1,4 @@
-# Software Engineering Project (Group: PDL-B)
+# Energo-Sphere
 
 ## Table of Contents
 1. [Project Description](#project-description)
